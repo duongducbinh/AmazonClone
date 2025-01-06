@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    font: 14px sans-serif;
+    box-sizing: border-box;
+    ;
+}
+
+/*header*/
+header {
+    color: #FFFFFF;
+}
+
+.navbar {
+    color: #D6D6D6;
+    height: 60px;
+    background-color: #0F1111;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0px;
+    z-index: 1000;
+}
+
+.navlogo {
+    height: 60px;
+    width: 114px;
+    margin: 0 0 0 1px;
+    padding: 4px 0 0;
+}
+
+.logo {
+    background-image: url("/img/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    color: #2162A1;
+}
+
+.nav-deliver {
+    margin: 5px 2px 5px 0;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.span-deliver1 {
+    margin-left: 18px;
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+.icon-deliver i {
+    font-size: 20px;
+    position: absolute;
+    top: 26px;
+}
+
+.span-deliver2 {
+    margin-left: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/*search*/
+.nav-search {
+    padding: 10px 4px 10px 3px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 862px;
+}
+
+.nav-left select {
+    height: 40px;
+    width: 52px;
+    padding: 0 0 0 5px;
+    background-color: #D6D6D6;
+    color: #555;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.nav-fill {
+    width: 100%;
+}
+
+.nav-fill input {
+    height: 40px;
+    padding: 0 0 0 5px;
+    width: 100%;
+    border: none;
+}
+
+.nav-right {
+    width: 45px;
+    height: 40px;
+    color: #0F1111;
+    background-color: #febd69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-right i {
+    font-size: 20px;
+}
+
+.nav-language,
+.nav-cart,
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-language {
+    margin: 5px 2px 5px 0;
+    padding: 0 9px;
+}
+
+.img-language {
+    background-image: url("/img/Flag_of_Vietnam.svg.png");
+    width: 22px;
+    height: 16px;
+    background-size: cover;
+    margin: 0 5px 0 0;
+}
+
+.nav-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account {
+    display: flex;
+}
+
+.account>span {
+    display: block;
+}
+
+.account1 {
+    margin: 0 0 0 2px;
+    padding: 9px;
+}
+
+.f-span {
+    font-size: 12px;
+}
+
+.cart i {
+    font-size: 30px;
+
+}
+
+.nav-bottom {
+    height: 39px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-bottom ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 11px;
+}
+
+.nav-bottom-ul li {
+    padding: 8px 9px;
+    margin: 5px 0 6px;
+}
+
+.nav-bottom-ul li {
+    padding: 8px 9px;
+    margin: 5px 0 6px;
+}
+
+.navlogo:hover,
+.nav-bottom-ul li:hover,
+.nav-deliver:hover,
+.nav-language:hover,
+.nav-cart:hover,
+.account1:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.carousel {
+    height: 230px;
+}
+
+.carousel i{
+    font-size: 70px;
+}
+
+.left-carousel{
+    font-size: 30px;
+    color: #0F1111;
+    position: absolute;
+    top: 224px;
+    transform: translateY(-50%);
+    z-index: 10;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+}
+
+
+.right-carousel{
+    font-size: 30px;
+    color: #0F1111;
+    position: absolute;
+    top: 224px;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 84px;
+    justify-content: center;
+   
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel-img::after{
+    content: "";
+    position: absolute;
+    top: 320px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #E3E6E6);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.page-content{
+    background-color: #E3E6E6;
+}
+
+.content{
+    z-index: 10;
+    position: relative;
+    padding: 0 10px;
+}
+
+.f-content{
+    height: 880px;
+    padding: 20px 0;
+}
+
+.f-content hr{
+    height: 20px;
+    width: 100%;
+    border: none;
+}
+
+.card-content{
+    display: flex;
+    height: 420px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 25%;
+    padding: 20px 0 15px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.title-card{
+    
+}
+
+.card h2{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 0 20px;
+    margin: 0 0 10px;
+}
+
+.card-items{
+   height: 304px;
+   margin: 0 0 35px;
+}
+
+.card-footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+.card-footer{
+    display: block;
+    color: #2162A1;
+    font-size: 13px;
+    padding: 0 20px;
+    margin: 0 0 20px;
+}
+
+.card-footer:hover{
+    cursor: pointer;
+}
+
+.items{
+    margin: 0 0 8px;
+    display: flex;
+    height: 50%;
+    padding: 0 20px;
+}
+
+.item{
+    width: 50%;
+    height: 100%;
+}
+
+.img-item{
+    background-image: url(/img/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: fit-content;
+    width: 143px;
+    height: 116px;
+}
+
+.item span{
+    display: block;
+}
